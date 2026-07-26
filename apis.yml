@@ -1,8 +1,25 @@
 aid: evolveapp-inc
 name: EvolveApp INC.
-description: EvolveApp INC. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: EvolveApp INC. (Evolve) is an AI-native enablement and performance platform for corporate
+  learning and workforce training. Its product suite spans the Evolve LMS for courses, learning paths and
+  branded academies; Evolve Generate for AI-powered course creation from raw materials; Evolve Studio for
+  advanced authoring; an Assessment Center for skills and behavioral evaluation; an AI Knowledge Base
+  instant-answer engine; and AI-driven Simulations for job-critical practice. Evolve serves 100+ enterprise
+  clients and 2.9M+ learners worldwide, is SOC 2 (Type 1 and 2), ISO 27001 and GDPR compliant, and offers
+  iOS and Android apps. The company is backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/evolveapp-inc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.tildacdn.com/tild6664-3563-4663-a564-366461653533/logo_white_backgroun.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Learning Management
+- Corporate Training
+- EdTech
+- Enablement
+- Assessments
+- Simulations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/evolveapp-inc-trust-center.yml
+- type: Compliance
+  url: https://trust.evolveplatform.ai/
+- type: DomainSecurity
+  url: security/evolveapp-inc-domain-security.yml
+- type: Blog
+  url: https://evolveplatform.ai/articles
+- type: Support
+  url: https://evolveplatform.ai/contact-us
+- type: Login
+  url: https://dashboard.evolveplatform.ai/auth/login
+- type: PrivacyPolicy
+  url: https://app.evolveplatform.ai/en/privacypolicy
+- type: TermsOfService
+  url: https://app.evolveplatform.ai/en/eula
 - type: Website
   url: https://evolveplatform.ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
