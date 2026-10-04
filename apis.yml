@@ -1,5 +1,5 @@
 aid: evolveapp-inc
-name: EvolveApp INC.
+name: EvolveApp
 description: EvolveApp INC. (Evolve) is an AI-native enablement and performance platform for corporate
   learning and workforce training. Its product suite spans the Evolve LMS for courses, learning paths and
   branded academies; Evolve Generate for AI-powered course creation from raw materials; Evolve Studio for
@@ -88,3 +88,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: EvolveApp INC.
